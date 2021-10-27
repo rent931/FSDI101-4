@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(231, 231, 231);
+    font-family: arial;
+    
+    
+    
+}
+p{
+    line-height: 20px;
+    font-size: 16px;
+    margin: 20px;
+}
+header{
+    background-image: url(https://motionarray-portfolio.imgix.net/preview-249898-wXJyqmuy5Y-high_0016.jpg);
+    background-color: rgb(138, 177, 223);
+    text-align: center;
+    height: 150px;
+    padding: 20px;
+    color: rgb(216, 213, 12);
+}
+
+
+.subtitle{
+    text-align: center;
+    margin: 30px;
+    font-weight: 300;
+}
+footer{
+    text-align: center;
+}
+.menu{
+
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    margin-right: 20px;
+
+
+}
+.menu:hover{
+    font-size: 30px;
+
+}
+
+ul.projects{
+    margin-left: 50px;
+
+}
+ul.projects li{
+padding: 5px;
+list-style-type: none;
+border-left: 3px solid rgb(138, 177, 223);
+margin: 10px;
+}
+ul.projects li:hover{
+border-left: 5px solid grey;
+cursor: crosshair;
+
+}
+footer{
+    background-image: url(https://motionarray-portfolio.imgix.net/preview-587636-Z1KzKM9gy2-high_0016.jpg);
+    background-color: grey;
+    color: white;
+    height: 250px;
+}
+main{
+    background-image: url(https://s3.envato.com/files/3a6e02dc-2769-456d-a9d7-248ffe6d4005/inline_image_preview.jpg);
+    height: 600px;
+    background-position: center;
+    background-color: white;
+}
+img{
+    height: 400px;
+    width: 400px;
+    display: block;
+    float: right;
+    margin: 80px 0 0 40;
+    padding: 8px;
+}
